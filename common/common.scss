@@ -1,8 +1,21 @@
-.latest-topic-list,
-.top-topic-list {
-    box-shadow: 0 8px 15px rgba(0,0,0,.3);
-    /* box-shadow: 20px 20px 50px rgba(0,0,0,.5); */
-    background-color: var(--secondary);
-    border: 1px solid rgb(255 255 255 / 10%);
-    border-radius: 4px;
+.btn-sidebar-toggle::before {
+    transition:.2s ease-out all;
+    opacity:0;
+    content: "+";
+    font-size: 32px;
+    transform: rotate(0deg);
+    position:absolute; left:12px;
+}
+
+.btn-sidebar-toggle  svg {
+    transition:.2s ease-out all
+}
+
+body.has-sidebar-page .btn-sidebar-toggle::before {
+    opacity:1;
+    transform: rotate(45deg);
+}
+
+body.has-sidebar-page .btn-sidebar-toggle svg {
+    opacity:0
 }

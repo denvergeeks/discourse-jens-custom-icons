@@ -1,5 +1,8 @@
 {
   "name": "Sidebar Toggle Icons",
   "component": true,
-  "license_url": "https://github.com/denvergeeks/discourse-sidebar-toggle-icons/blob/main/LICENSE"
+  "license_url": "https://github.com/denvergeeks/discourse-sidebar-toggle-icons/blob/main/LICENSE",
+  "assets": {
+  "icons-sprite": "/assets/sidebar-open-close.svg"
+  }
 }

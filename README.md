@@ -1,6 +1,6 @@
-Jen's collection of icons all in one sprite 
+Jen's collection of icons all in one sprite here in **/assets/jens-custom-icons.svg**
 
-i.e. contents of **common/head.html**
+To use, i.e. contents of **common/head.html** can be overridden in a local theme component like this with any installed SVG icons...
 ```
 <script type="text/discourse-plugin" version="0.8">
   api.replaceIcon('bars', 'jens-icon-bars');
@@ -16,3 +16,4 @@ https://meta.discourse.org/t/how-to-replace-an-existing-svg-icon-with-a-custom-o
 https://meta.discourse.org/t/how-to-replace-an-existing-svg-icon-with-a-custom-one/277743
 
 https://meta.discourse.org/t/replace-discourses-default-svg-icons-with-custom-icons-in-a-theme/115736/
+
